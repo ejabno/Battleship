@@ -5,7 +5,7 @@ import UI.GameObserver;
 import javafx.scene.layout.GridPane;
 
 abstract class GamePane extends GridPane implements GameObserver {
-    private GameControllerInterface controllerAccess;
+    protected GameControllerInterface controllerAccess;
 
     GamePane(GameControllerInterface controllerAccess) {
         super();
